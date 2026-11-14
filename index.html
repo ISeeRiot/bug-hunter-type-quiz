@@ -30,7 +30,7 @@
         
         <!-- Header -->
         <div class="bg-indigo-700 text-white p-3 text-center text-sm font-semibold tracking-wider uppercase">
-            <span>➡️ Powered by PLATZHALTER ⬅️</span>
+            <span>➡️ Powered by AUSTRIAN TESTING BOARD ⬅️</span>
         </div>
 
         <div class="p-6 md:p-8 min-h-[400px] flex flex-col relative">
@@ -82,6 +82,10 @@ Finde in wenigen Fragen heraus, welcher Typ du bist.
                 
                 <p id="result-desc" class="text-gray-600 mb-6 text-sm bg-indigo-50 p-4 rounded-xl border border-indigo-100">
                     <!-- Beschreibung -->
+                </p>
+                
+                <p class="text-sm text-indigo-700 font-semibold mb-6">
+                    Mehr Infos dazu gibt es beim Austrian Testing Board-Stand 😉
                 </p>
 
                 <div class="flex flex-col gap-3 w-full">
@@ -259,7 +263,7 @@ Finde in wenigen Fragen heraus, welcher Typ du bist.
             ctx.font = '100px sans-serif';
             ctx.fillText(finalResultType.emoji, canvas.width / 2, 240);
 
-            // 6. Name des Profils (z. B. Schutzengel)
+            // 6. Name des Profils
             ctx.fillStyle = '#38bdf8';
             ctx.font = 'bold 48px sans-serif';
             ctx.fillText(finalResultType.title, canvas.width / 2, 330);
@@ -272,7 +276,7 @@ Finde in wenigen Fragen heraus, welcher Typ du bist.
             // 8. Footer / Absender Hinweis
             ctx.fillStyle = '#64748b';
             ctx.font = '18px sans-serif';
-            ctx.fillText('PLATZHALTER | Bug Hunter Quiz', canvas.width / 2, 530);
+            ctx.fillText('AUSTRIAN TESTING BOARD | Bug Hunter Quiz', canvas.width / 2, 530);
 
             // 9. Canvas in eine Bilddatei (Blob/File) umwandeln
             canvas.toBlob(async (blob) => {
